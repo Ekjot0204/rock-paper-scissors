@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+<h1>🎮 Rock Paper Scissors</h1>
+
+<form method="post">
+    <button name="choice" value="rock">Rock 🪨</button>
+    <button name="choice" value="paper">Paper 📄</button>
+    <button name="choice" value="scissors">Scissors ✂️</button>
+</form>
+
+<h3>Score</h3>
+<p>You: {{ user_score }} | Computer: {{ computer_score }}</p>
+
+{% if result %}
+    <p>You chose: {{ user }} {{ emoji.get(user, "") }}</p>
+    <p>Computer chose: {{ computer }} {{ emoji.get(computer, "") }}</p>
+    <h2>{{ result | upper }}</h2>
+{% endif %}
+
+</body>
+</html>
