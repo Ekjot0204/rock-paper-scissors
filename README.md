@@ -52,15 +52,16 @@ The project also includes a terminal-based version to demonstrate how the **same
 Below is the directory structure of the project showing how the web and terminal versions are organized.
 
 rock-paper-scissors/                                                                                                                                                                                                 
-│                                                                                                                                                                                                                    
+ │                                                                                                                                                                                                                   
 ├── app.py              # Flask backend (web version logic)                                                                                                                        
 ├── terminal.py         # Terminal-based Rock Paper Scissors game                                                                                                                                          
 ├── templates/                                                                                                                                                                                                       
-│   └── index.html      # HTML template for the web interface                                                                                                                                                        
+ │   └── index.html      # HTML template for the web interface                                                                                                                                                       
 ├── static/                                                                                                                                                                                                          
-│   └── style.css       # CSS styling for the web interface                                                                                                                                                          
+ │   └── style.css       # CSS styling for the web interface                                                                                                                                                         
 └── README.md           # Project documentation                                                                                                                                                                      
                                                                                                                                                                                                                      
+
 
 
 
