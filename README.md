@@ -56,19 +56,13 @@ rock-paper-scissors/
 ├── app.py              # Flask backend (web version logic)                                                                                                                                                          
 |                                                                                                                                                                                                                    
 ├── terminal.py         # Terminal-based Rock Paper Scissors game                                                                                                                                                    
-|                                                                                                                                                                                                                    
 │                                                                                                                                                                                                                    
 ├── templates/                                                                                                                                                                                                       
-|                                                                                                                                                                                                                    
-│   └── index.html      # HTML template for the web interface                                                                                                                                                        
-|                                                                                                                                                                                                                    
-│                                                                                                                                                                                                                    
+│   └── index.html      # HTML template for the web interface                                                                                                                                                        |                                                           
 ├── static/                                                                                                                                                                                                          
-|                                                                                                                                                                                                                    
 │   └── style.css       # CSS styling for the web interface                                                                                                                                                          
-|                                                                                                                                                                                                                    
-│                                                                                                                                                                                                                    
 └── README.md           # Project documentation                                                                                                                                                                      
                                                                                                                                                                                                                      
+
 
 
